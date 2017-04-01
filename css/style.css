@@ -1,0 +1,309 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 15px;
+}
+
+.navbar-brand{
+	padding: 0;
+}
+
+.carousel-inner>.item{
+	background: #87509C;
+	min-height: 100vh;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    transition: all 0.3s ease;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus .navbar-default .navbar-nav>li.active>a:hover{
+	background: #603271;
+	color: #fff;
+
+}
+
+@media screen and (min-width: 768px){
+	.carousel-caption{
+		right: 0;
+		left: 0;
+		padding-bottom: 30px;
+		top: 50%;
+		transform: translateY(-50%);
+		bottom: inherit;
+		padding-top: inherit;
+	}
+}
+
+.carousel-caption p{
+	font-size: 30px;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 15 px;
+	font-family: 'Kreon', serif;
+}
+.btn-custom{
+	background: #EB7D4B;
+	padding:10px 20px;
+	box-shadow: 0 4px 0 #c3673d;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0.4s ease;
+}
+
+.btn-custom:hover, .btn-custom:focus{
+	color: #fff;
+	box-shadow: 0 4px 0 transparent;
+}
+
+#service-section{
+	background: #09B0A5;
+}
+
+#service-section, #team-section, #skill-section, #portfolio-section, #contact-section, #aboutus-section {
+	height: 100vh;
+	padding: 70px 0;
+
+}
+
+.header {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 4em;
+	font-family: 'Kreon', serif;
+}
+.header h1 {
+
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.header p {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.services{
+	text-align: center;
+	color: #fff;
+}
+
+.services img{
+	margin: 0 auto;
+	margin-bottom: 3em;
+}
+.services h2{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 22px;
+
+}
+.services p{
+	max-width: 200px;
+	margin: 0 auto;
+
+}
+
+#team-section{
+	background: #E7F1F8;
+}
+
+#team-section .header{
+	color: #3C4761;
+}
+
+.team {
+	text-align: center;
+	color: #3C4761;
+}
+
+.team img{
+	margin: 0 auto;
+	margin-bottom: 3em;
+	width: 150px;
+}
+.team h2{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 22px;
+
+}
+.team p{
+	max-width: 200px;
+	margin: 0 auto;
+
+}
+
+.team span{
+	color: #7CCFED;
+	font-size: 15px;
+}
+
+.social{
+	margin-top: 15px;
+}
+.social li{}
+.social li a{
+	display: block;
+	background: #BDD1DF;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #fff;
+	border: 1px solid transparent;
+	transition: all 0.4s ease;
+}
+.social li a:hover{
+	color: #BDD1DF;
+	background: #fff;
+	border: 1px solid #BDD1DF;
+}
+
+/* skills */
+
+
+#skill-section{
+
+}
+
+#skill-section .header{
+	color: #3C4761;
+}
+
+.skills{
+	text-align: center;
+}
+.skills span{
+	background: yellow;
+	height: 125px;
+	width: 125px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 100%;
+	border: 10px solid #31A9F7;
+	line-height: 125px;
+	position: relative;
+}
+.skills span em{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	color: #3C4761;
+}
+
+.skills h2{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+/* portfolio part */
+
+#portfolio-section{
+	background: #FFDD99;
+	padding: 70px 0;
+	text-align: center;
+	height: 150vh;
+}
+
+#portfolio-section .header{
+	color: #3C4761;
+}
+
+.portfolio-list{
+	text-align: center;
+	margin-bottom: 2em;
+}
+.portfolio-list button{
+	display: inline-block;
+	float: none;
+}
+.portfolio-list button{
+	background: #EBC985;
+	color: #3C4761;
+	text-transform: uppercase;
+}
+{}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover, .portfolio-list li a:hover{
+	color: #3C4761;
+	background-color: #fff;
+}
+
+.portfolio{
+	margin-bottom: 2em;
+}
+
+#portfolio-section .btn-custom{
+	background: #18C2A5;
+	box-shadow: 0 4px 0 #13a78d;
+	margin-top: 15px;
+}
+
+/* contact part */
+
+#contact-section{
+	background-color: #41539F;
+	color: black;
+	text-align: center;
+}
+
+input[type="submit"]{
+	background: #30BAE7;
+	box-shadow: 0 4px 0 #30BAE7;
+}
+
+.col-center{
+	float: none;
+	margin: 0 auto;
+}
+
+#aboutus-section{
+	background-color: #D7467F;
+	color: black;
+}
+
+.clinet img{
+	max-width: 100%;
+}
+
+.client{
+	text-align: left;
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+	padding: 100px 0px;
+}
+
+.client p{
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.client h4{
+	color: #F5CC90
+}
+
+.footer{
+	background-color: #344B8E;
+}
+.footer a{
+	text-decoration: none;
+	list-style: none;
+	font-size: 40px;
+	margin: 7px;
+	text-align: center;
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.footer a:hover{
+	color: #34B8E9;
+	transition: all 0.4s ease;
+}
